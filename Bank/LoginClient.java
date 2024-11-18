@@ -41,7 +41,7 @@ public class LoginClient {
 
                 if (response.startsWith("Welcome")) {
                     loginSuccessful = true;
-                    openBankAccountInterface(); // Open bank account interface after login
+                    openBankAccountInterface();
                 }
             }
 
